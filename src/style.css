@@ -1,4 +1,19 @@
+header {
+  text-align: center;
+}
 body {
-  background-color: #b4f0f1;
+  background-color: #b4b4b4;
+}
+
+.cities-time div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cities-time span {
+  text-align: right;
+}
+
+footer {
   text-align: center;
 }
