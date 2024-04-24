@@ -1,19 +1,71 @@
 header {
   text-align: center;
+  color: #393939;
 }
 body {
-  background-color: #b4b4b4;
-}
-
-.cities-time div {
-  display: flex;
-  justify-content: space-between;
-}
-
-.cities-time span {
-  text-align: right;
+  background-color: #f5e8e8;
 }
 
 footer {
   text-align: center;
+  color: gray;
+  font-size: 13px;
+  padding-top: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: #af5875;
+  font-size: 15px;
+  border-bottom: 1px solid #af5875;
+}
+
+main {
+  font-family: "sedan", serif;
+  font-size: 15px;
+  max-width: 600px;
+  display: block;
+  margin: auto;
+  border: 1px solid #ca3131;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 50px;
+  color: #444444;
+  box-shadow: 3px 3px 3px #ca3131;
+  background: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+
+a {
+  color: #af5875;
+}
+
+hr {
+  color: red;
+}
+
+small {
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+
+.cities-time {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #ca3131;
+  padding-bottom: 10px;
+}
+
+.cities-time span {
+  color: #af5875;
+}
+
+.cities-time .time {
+  font-size: 35px;
+  padding-top: 20px;
+}
+
+section {
+  border-top: 1px solid #af5875;
 }
